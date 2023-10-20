@@ -1,3 +1,4 @@
+
 :root {
 	--primary: #FF0066;
 }
@@ -11,7 +12,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Nunito;
+	font-family: Nunito Sans, sans-serif;
 }
 
 html {
@@ -48,7 +49,7 @@ html {
 	color: #fff;
 }
 
-.navigation .icons  img {
+.navigation .icons img {
 	width: 3rem;
 }
 
@@ -117,7 +118,7 @@ html {
 }
 
 .home_text {
-	padding-left: 4rem;
+	padding-left: 3rem;
 }
 
 .dull {
@@ -242,7 +243,7 @@ html {
 	margin-top: 1.5rem;
 	font-size: 1.6rem;
 }
-		     /* reviews section */
+/* reviews section */
 .reviews {
 	min-height: calc(100vh - 8rem);
 	padding-top: 7rem;
@@ -250,16 +251,16 @@ html {
 	padding-right: 6rem;
 	padding-bottom: 5rem;
 }
- .review_container {
+.review_container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	width: 100%;
 	gap: 2rem;
-} 
+}
 .reviews audio {
 	width: 100%;
 }
-           /* footer */
+/* footer */
 .page-footer {
 	font-size: 1.5rem;
 }
